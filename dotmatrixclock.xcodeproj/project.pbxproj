@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DB86B5A2A69ADEA008CC3BF /* dotmatrixclock Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9DB86B592A69ADEA008CC3BF /* dotmatrixclock Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9DB86B5F2A69ADEA008CC3BF /* dotmatrixclockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB86B5E2A69ADEA008CC3BF /* dotmatrixclockApp.swift */; };
+		9DB86B612A69ADEA008CC3BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB86B602A69ADEA008CC3BF /* ContentView.swift */; };
+		9DB86B632A69ADF1008CC3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB86B622A69ADF1008CC3BF /* Assets.xcassets */; };
+		9DB86B662A69ADF1008CC3BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB86B652A69ADF1008CC3BF /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DB86B5B2A69ADEA008CC3BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DB86B4D2A69ADEA008CC3BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB86B582A69ADEA008CC3BF;
+			remoteInfo = "dotmatrixclock Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9DB86B6C2A69ADF1008CC3BF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9DB86B5A2A69ADEA008CC3BF /* dotmatrixclock Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9DB86B532A69ADEA008CC3BF /* dotmatrixclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dotmatrixclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB86B592A69ADEA008CC3BF /* dotmatrixclock Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dotmatrixclock Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB86B5E2A69ADEA008CC3BF /* dotmatrixclockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotmatrixclockApp.swift; sourceTree = "<group>"; };
+		9DB86B602A69ADEA008CC3BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DB86B622A69ADF1008CC3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DB86B652A69ADF1008CC3BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DB86B562A69ADEA008CC3BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DB86B4C2A69ADEA008CC3BF = {
+			isa = PBXGroup;
+			children = (
+				9DB86B5D2A69ADEA008CC3BF /* dotmatrixclock Watch App */,
+				9DB86B542A69ADEA008CC3BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DB86B542A69ADEA008CC3BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DB86B532A69ADEA008CC3BF /* dotmatrixclock.app */,
+				9DB86B592A69ADEA008CC3BF /* dotmatrixclock Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DB86B5D2A69ADEA008CC3BF /* dotmatrixclock Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9DB86B5E2A69ADEA008CC3BF /* dotmatrixclockApp.swift */,
+				9DB86B602A69ADEA008CC3BF /* ContentView.swift */,
+				9DB86B622A69ADF1008CC3BF /* Assets.xcassets */,
+				9DB86B642A69ADF1008CC3BF /* Preview Content */,
+			);
+			path = "dotmatrixclock Watch App";
+			sourceTree = "<group>";
+		};
+		9DB86B642A69ADF1008CC3BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DB86B652A69ADF1008CC3BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DB86B522A69ADEA008CC3BF /* dotmatrixclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB86B6D2A69ADF1008CC3BF /* Build configuration list for PBXNativeTarget "dotmatrixclock" */;
+			buildPhases = (
+				9DB86B512A69ADEA008CC3BF /* Resources */,
+				9DB86B6C2A69ADF1008CC3BF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB86B5C2A69ADEA008CC3BF /* PBXTargetDependency */,
+			);
+			name = dotmatrixclock;
+			productName = dotmatrixclock;
+			productReference = 9DB86B532A69ADEA008CC3BF /* dotmatrixclock.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		9DB86B582A69ADEA008CC3BF /* dotmatrixclock Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB86B692A69ADF1008CC3BF /* Build configuration list for PBXNativeTarget "dotmatrixclock Watch App" */;
+			buildPhases = (
+				9DB86B552A69ADEA008CC3BF /* Sources */,
+				9DB86B562A69ADEA008CC3BF /* Frameworks */,
+				9DB86B572A69ADEA008CC3BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dotmatrixclock Watch App";
+			productName = "dotmatrixclock Watch App";
+			productReference = 9DB86B592A69ADEA008CC3BF /* dotmatrixclock Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DB86B4D2A69ADEA008CC3BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9DB86B522A69ADEA008CC3BF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9DB86B582A69ADEA008CC3BF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9DB86B502A69ADEA008CC3BF /* Build configuration list for PBXProject "dotmatrixclock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DB86B4C2A69ADEA008CC3BF;
+			productRefGroup = 9DB86B542A69ADEA008CC3BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DB86B522A69ADEA008CC3BF /* dotmatrixclock */,
+				9DB86B582A69ADEA008CC3BF /* dotmatrixclock Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DB86B512A69ADEA008CC3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DB86B572A69ADEA008CC3BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB86B662A69ADF1008CC3BF /* Preview Assets.xcassets in Resources */,
+				9DB86B632A69ADF1008CC3BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DB86B552A69ADEA008CC3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB86B612A69ADEA008CC3BF /* ContentView.swift in Sources */,
+				9DB86B5F2A69ADEA008CC3BF /* dotmatrixclockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DB86B5C2A69ADEA008CC3BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DB86B582A69ADEA008CC3BF /* dotmatrixclock Watch App */;
+			targetProxy = 9DB86B5B2A69ADEA008CC3BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DB86B672A69ADF1008CC3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DB86B682A69ADF1008CC3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9DB86B6A2A69ADF1008CC3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dotmatrixclock Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = dotmatrixclock;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopher.dotmatrixclock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		9DB86B6B2A69ADF1008CC3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dotmatrixclock Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = dotmatrixclock;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopher.dotmatrixclock.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		9DB86B6E2A69ADF1008CC3BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = dotmatrixclock;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopher.dotmatrixclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9DB86B6F2A69ADF1008CC3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = dotmatrixclock;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopher.dotmatrixclock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DB86B502A69ADEA008CC3BF /* Build configuration list for PBXProject "dotmatrixclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB86B672A69ADF1008CC3BF /* Debug */,
+				9DB86B682A69ADF1008CC3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB86B692A69ADF1008CC3BF /* Build configuration list for PBXNativeTarget "dotmatrixclock Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB86B6A2A69ADF1008CC3BF /* Debug */,
+				9DB86B6B2A69ADF1008CC3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB86B6D2A69ADF1008CC3BF /* Build configuration list for PBXNativeTarget "dotmatrixclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB86B6E2A69ADF1008CC3BF /* Debug */,
+				9DB86B6F2A69ADF1008CC3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DB86B4D2A69ADEA008CC3BF /* Project object */;
+}
